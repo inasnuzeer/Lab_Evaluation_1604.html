@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-gallery{
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.img-box{
+    width: 30%;
+    margin-right: 20px ;
+    float: left;
+}
+
+.img-gallery img{
+    width: 100%;
+}
+
+.image-head, .image-text{
+    text-align: center;
+}
+
+.img-box:hover{
+    filter: grayscale(100%);
+    transition: 1s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px red;
+}
+
+@media  screen and (max-width: 1000px){
+    .img-box{
+        width:45%;
+    }        
+}
+
+
+@media  screen and (max-width: 600px){
+
+    .img-box{
+        width:97%;
+    }        
+}
+
+.clear{
+    clear: both;
+}
+
